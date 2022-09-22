@@ -25,4 +25,4 @@ tsconfig.tsbuildinfo
 yarn-error.log
 bundler.config.json
 build
-wallet*
+wallet.txt
