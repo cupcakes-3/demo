@@ -15,9 +15,7 @@ export const Demo = (): ReactElement => {
 
   useEffect(() => {
     if (isConnected && signer != null) {
-      SCWProvider.getSCWForOwner(provider, signer, {
-        scwIndex: 1,
-      })
+      SCWProvider.getSCWForOwner(provider, signer)
         .then((scwProvider: SCWProvider) => {
           setSCWProvider(scwProvider)
         })
